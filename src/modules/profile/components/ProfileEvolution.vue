@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts">
-import {User} from "../models/User.ts";
+import type {User} from "../models/User.ts";
 import ApexCharts from 'apexcharts'
 import {onMounted} from "vue";
 import type {Evolution} from "../models/Evolution.ts";

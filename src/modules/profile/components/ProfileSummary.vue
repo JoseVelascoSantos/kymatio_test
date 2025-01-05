@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import {User} from "../models/User.ts";
+import type {User} from "../models/User.ts";
 
 export default {
   props: {
