@@ -26,7 +26,7 @@
 
 <script lang="ts">
 import { onMounted } from "vue";
-import { ProfileViewModel } from "./ProfileViewModel.ts";
+import { ProfileViewModel } from "./ProfileViewModel";
 import ProfileSummary from "./components/ProfileSummary.vue";
 import ProfileAlerts from "./components/ProfileAlerts.vue";
 import ProfileNotifications from "./components/ProfileNotifications.vue";

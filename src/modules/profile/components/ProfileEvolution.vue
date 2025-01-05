@@ -20,7 +20,7 @@ export default {
   setup({profile}) {
 
     onMounted(() => {
-      const evolutionFormatted = profile.evolution.reduce(
+      const evolutionFormatted: {} = profile.evolution.reduce(
           (act: any, evolution: Evolution) => {
             const key = moment(evolution.date).format("DD-MM-YYYY");
             if (act[key]) {
@@ -31,7 +31,7 @@ export default {
           }, {}
       );
       const evolutionSorted = Object.entries(evolutionFormatted).sort(
-          ([keyA], [keyB]) => new Date(keyA).getTime() - new Date(keyB).getTime()
+          ([keyA]: any, [keyB]: any) => new Date(keyA).getTime() - new Date(keyB).getTime()
       );
 
       const options = {

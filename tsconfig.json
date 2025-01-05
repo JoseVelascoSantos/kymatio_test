@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["DOM", "ES2015"], // Agrega ES2015 o superior
-    "target": "ES2015",       // Asegúrate de que el objetivo también sea ES2015 o superior
+    "lib": ["DOM", "ES2017"], // Agrega ES2015 o superior
+    "target": "ES2017",       // Asegúrate de que el objetivo también sea ES2015 o superior
     "module": "ESNext",
     "types": ["vitest/globals"], // Incluye los tipos globales de Vitest
     "moduleResolution": "node",

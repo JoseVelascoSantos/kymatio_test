@@ -122,7 +122,7 @@
 
 <script lang="ts">
 import {nextTick, onMounted, ref} from "vue";
-import {ChatbotViewModel} from "./ChatbotViewModel.ts";
+import {ChatbotViewModel} from "./ChatbotViewModel";
 
 export default {
   methods: {
