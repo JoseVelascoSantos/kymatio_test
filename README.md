@@ -1,3 +1,3 @@
-# Prueba de capacitación tecnológica Kymario
+# Prueba de capacitación tecnológica Kymatio
 
 ## Desarrollado por José Velasco
