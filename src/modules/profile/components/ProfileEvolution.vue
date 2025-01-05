@@ -21,7 +21,7 @@ export default {
 
     onMounted(() => {
       const evolutionFormatted = profile.evolution.reduce(
-          (act, evolution: Evolution) => {
+          (act: any, evolution: Evolution) => {
             const key = moment(evolution.date).format("DD-MM-YYYY");
             if (act[key]) {
               return {...act, [key]: act[key] + evolution.value};

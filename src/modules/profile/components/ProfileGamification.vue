@@ -23,10 +23,8 @@ export default {
           (a: Timeline, b: Timeline) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime()
       );
 
-
-
-      function getIconForType(type) {
-        const icons = {
+      function getIconForType(type: string): string {
+        const icons: any = {
           phishing: '🎣',
           cybersecurity: '👮🏻'
         };
