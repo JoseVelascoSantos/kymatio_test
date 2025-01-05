@@ -8,8 +8,8 @@
         </span>
       </h5>
       <button class="profile-notifications-button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#notificationList">
-        <i class="button-collapse bi bi-chevron-down"></i>
-        <i class="button-not-collapse bi bi-chevron-up"></i>
+        <i class="button-collapse bi bi-chevron-down text-white"></i>
+        <i class="button-not-collapse bi bi-chevron-up text-white"></i>
       </button>
     </div>
     <div class="collapse show" id="notificationList">

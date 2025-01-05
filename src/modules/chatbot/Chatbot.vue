@@ -3,8 +3,8 @@
     <div class="d-flex flex-row justify-content-between align-items-center text-white px-2 chatbot-header-container">
       <h5 class="m-0">Chatbot <i class="bi bi-messenger"></i></h5>
       <button class="chatbot-button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#chatbotContent">
-        <i class="button-collapse bi bi-chevron-up"></i>
-        <i class="button-not-collapse bi bi-chevron-down"></i>
+        <i class="button-collapse bi bi-chevron-up text-white"></i>
+        <i class="button-not-collapse bi bi-chevron-down text-white"></i>
       </button>
     </div>
     <div class="collapse show" id="chatbotContent">
