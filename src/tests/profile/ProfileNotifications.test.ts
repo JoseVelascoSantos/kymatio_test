@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
 import {describe, it, expect, vi, afterEach} from 'vitest';
 import ProfileNotifications from '../../modules/profile/components/ProfileNotifications.vue';
-import {profileMockData} from '../mocks/ProfileMock.ts';
+import {profileMockData} from '../mocks/ProfileMock';
 
 describe('ProfileNotifications.vue', () => {
 

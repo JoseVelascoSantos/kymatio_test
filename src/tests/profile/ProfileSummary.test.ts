@@ -1,7 +1,7 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect, vi, afterEach } from "vitest";
 import ProfileSummary from "../../modules/profile/components/ProfileSummary.vue";
-import { profileMockData } from "../mocks/ProfileMock.ts";
+import { profileMockData } from "../mocks/ProfileMock";
 
 describe("ProfileSummary.vue", () => {
   afterEach(() => {

@@ -1,5 +1,5 @@
 import { computed } from "vue";
-import { chatbotStore } from "./ChatbotStore.ts";
+import { chatbotStore } from "./ChatbotStore";
 
 export class ChatbotViewModel {
   private store: any;

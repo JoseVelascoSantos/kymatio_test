@@ -1,5 +1,5 @@
 import { computed } from "vue";
-import { profileStore } from "./ProfileStore.ts";
+import { profileStore } from "./ProfileStore";
 
 export class ProfileViewModel {
   private store: any;

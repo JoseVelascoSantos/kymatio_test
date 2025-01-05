@@ -1,7 +1,7 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect, vi, afterEach } from "vitest";
 import ProfileAlerts from "../../modules/profile/components/ProfileAlerts.vue";
-import { profileMockData } from "../mocks/ProfileMock.ts";
+import { profileMockData } from "../mocks/ProfileMock";
 
 describe("ProfileAlerts.vue", () => {
   afterEach(() => {
